@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "api-python-ia"
+version = "0.1.0"
+description = "API para MVP da Auditeste que fará a interação entre backend em C# e o ChatGPT"
+authors = ["giuanm <giuanm@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+psycopg2-binary = "^2.9.10"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.37"
+google-generativeai = "^0.8.4"
+protobuf = "^5.29.3"
+openai = "^1.60.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
